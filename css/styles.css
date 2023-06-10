@@ -241,7 +241,7 @@
             @media screen and (max-width: 600px)
             {
                 .top-container {
-                    background-color: #93c6c7;
+                    background-color: rgb(3, 31, 31);
                     height: 560px;
                     width: 100%;
                 }
