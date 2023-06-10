@@ -41,15 +41,17 @@
             /* Change the link color to #111 (black) on hover */
             
             li a:hover {
-                background-color: #111;
+                background-color: hsl(88, 89%, 48%);
             }
             
             h1 {
                 margin: 0;
-                padding-top: 120px;
+                padding-top: 180px;
                 font-family: 'Sacramento', cursive;
                 color: forestgreen;
                 font-size: 65px;
+                
+                
             }
             
             .web {
@@ -60,7 +62,7 @@
             
             .top-container {
                 background-color: #93c6c7;
-                height: 780px;
+                height: 950px;
                 width: 100%;
             }
             
@@ -100,8 +102,8 @@
             
             .mountain {
                 position: absolute;
-                bottom: -50px;
-                right: 450px;
+                bottom: 0px;
+                right: 600px;
             }
             
             h3 {
@@ -234,4 +236,91 @@
                 background-color: #dbcfb9;
                 margin-top: -100px;
                 height: 1500px;
+            }
+
+            @media screen and (max-width: 600px)
+            {
+                .top-container {
+                    background-color: #93c6c7;
+                    height: 560px;
+                    width: 100%;
+                }
+                .mountain {
+                    position: absolute;
+                    bottom: 60px;
+                    right: 120px;
+                    max-width: 400px;
+                }
+
+                ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;
+                    /* position: absolute; */
+                    left: 110px;
+                    top: 10px;
+                    position: fixed;
+                  
+                }
+
+                body {
+                    margin-top: 0;
+                    text-align: center;
+                }
+                
+                .gautamsm {
+                    width: 5%;
+                    top: 25px;
+                    left: 25px;
+                    position: fixed;
+                }
+                
+                .gautamsm:hover {
+                    color: rgb(19, 247, 49);
+                    /* background: rgb(9, 228, 9); */
+                    box-shadow: 0 0 100px rgb(5, 228, 16);
+                }
+
+                h1 {
+                 
+                    padding-top: 150px;
+                    padding-right: 50px;
+                    font-family: 'Sacramento', cursive;
+                    color: forestgreen;
+                    font-size: 30px;
+                    
+                    
+                    
+                }
+                
+                .web {
+                    font-family: 'Roboto', sans-serif;
+                    color: rgb(3, 68, 3);
+                    margin-top: -50px;
+                    margin-right: 40px;
+
+                    
+                }
+                
+                
+                .top-cloud {
+                    position: absolute;
+                    right: 90px;
+                    top: 80px;
+                }
+                
+                .bottom-cloud {
+                    position: absolute;
+                    left: 50px;
+                    top: 350px;
+                }
+                .I {
+                    font-size: 130px;
+                }
+                
+                .D {
+                    font-size: 130px;
+                }
+                
             }
