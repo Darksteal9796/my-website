@@ -46,25 +46,24 @@
             
             h1 {
                 margin: 0;
-                padding-top: 180px;
+                padding-top: 12.5%;
                 font-family: 'Sacramento', cursive;
                 color: forestgreen;
                 font-size: 65px;
-                
-                
+            }
+            .top-container {
+                background-color: #93c6c7;
+                height: 100%;
+                width: 100%;
             }
             
             .web {
                 font-family: 'Roboto', sans-serif;
                 color: rgb(3, 68, 3);
-                padding: -10 auto 0 auto;
+                /* padding: -10 auto 0 auto; */
+                margin-top: -1%;
             }
             
-            .top-container {
-                background-color: #93c6c7;
-                height: 950px;
-                width: 100%;
-            }
             
             .top-cloud {
                 position: absolute;
@@ -101,9 +100,9 @@
             }
             
             .mountain {
-                position: absolute;
-                bottom: 0px;
-                right: 600px;
+                right: 50%;
+                margin-top: -3%;
+                
             }
             
             h3 {
